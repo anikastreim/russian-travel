@@ -1,0 +1,6 @@
+.cover__background {
+  background-image: url(../../../images/cover/railway.png);
+  background-position: center;
+  color: #fff;
+  box-sizing: border-box;
+}
