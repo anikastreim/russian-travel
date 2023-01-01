@@ -1,6 +1,10 @@
 .cover__background {
-  background-image: url(../../../images/cover/railway.png);
+  display: block;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/cover/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   color: #fff;
-  box-sizing: border-box;
 }
