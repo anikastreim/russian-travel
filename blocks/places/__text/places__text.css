@@ -1,0 +1,11 @@
+.places__text {
+  max-width: 456px;
+  margin: 0 0 27px;
+  font-weight: 400;
+  font-size: 18px;  
+  line-height: 1.63;
+}
+
+.places__text:last-of-type {
+  margin-bottom: 0;
+}
