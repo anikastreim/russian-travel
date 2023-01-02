@@ -2,7 +2,11 @@
   max-width: 984px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 0 auto 80px;
+}
+
+.places__place:last-of-type {
+  margin-bottom: 0;
 }
