@@ -5,3 +5,24 @@
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .places__place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    max-width: 320px;
+    margin: 0 0 50px;
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 32px 0;
+  }
+}
