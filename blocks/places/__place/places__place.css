@@ -1,5 +1,5 @@
 .places__place {
-  max-width: 984px;
+  width: 100%;
   margin: 0 0 80px;
   display: grid;
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
@@ -8,19 +8,21 @@
 
 @media screen and (max-width: 1279px) {
   .places__place {
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places__place {
+    margin-bottom: 72px;
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
     gap: 48px 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places__place {
-    max-width: 320px;
     margin: 0 0 50px;
     grid-template-columns: minmax(min-content, max-content);
     gap: 32px 0;
