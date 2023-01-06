@@ -2,14 +2,14 @@
   max-width: 460px;
   margin: 0;
   font-weight: 900;
-  font-size: 72px;  
+  font-size: 72px;
   line-height: 1.06;
 }
 
 @media screen and (max-width: 1023px) {
   .places__title {
     max-width: 340px;
-    font-size: 42px;  
+    font-size: 42px;
     line-height: 1.1;
     white-space: pre-line;
   }
@@ -19,7 +19,7 @@
   .places__title {
     max-width: 288px;
     margin-left: 16px;
-    font-size: 32px;  
+    font-size: 32px;
     line-height: 1.09;
     white-space: nowrap;
   }
